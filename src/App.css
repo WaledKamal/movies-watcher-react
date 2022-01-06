@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  --main-color: #000;
+  --alt-color : coral;
+  --hover-color:yellowgreen;
+}
+
+body{
+  background-color: var( --main-color);
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: var(--main-color);
+  align-items: center;
+  margin-top: 25px;
+}
+
+header .logo {
+  font-size: 24px;
+  color: var(--alt-color);
+  font-weight: bold;
+}
+
+header .search-area input{
+  padding: 2px;
+  width: 0;
+  height: 40px;
+  outline: none;
+  transition: 0.4s;
+  border: 1px solid transparent;
+  background: #c2c0bf3f;
+  text-align: center;
+  color: white;
+  animation: fullWidth 2.1s forwards;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header .search-area input:focus{
+  border: var(--alt-color) 2px solid;
+}
+
+header .search-area input::placeholder{
+  margin-right: 10px;
+}
+
+.slide{
+  padding: 25px;
+  text-align: center;
+}
+
+.Movies{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+  align-content: center;
+  transform: scale(0.9);
+}
+
+.Movies-box{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  animation: showUp 1s forwards;
+  animation-delay: 2.5s;
+  opacity: 0;
+  position: relative;
+  bottom: 200px;
+}
+
+.Movies h3{
+  font-size: 40px;
+  color: wheat;
+  animation: fadeOut 3.5s ;
+}
+
+.Movies h4{
+  text-align: center;
+  font-size: 31px;
+  margin-top: 25px;
+  color: #a82a32;
+  font-weight: bold;
+  animation: fadeOut 2.5s forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+
+.Movies span{
+  color: var(--alt-color);
+}
+
+.Movie{
+  margin: 20px;
+  transition: 0.4s;
+  background: #121212;
+  padding: 10px;
+}
+
+.Movies .Movie a{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.Movie:hover{
+  transform: scale(1.2);
+}
+
+.Movies .Movie img{
+  width: 190px;
+  border: solid 2px var(--alt-color);
+}
+
+.Movie-Name{
+  text-align: center;
+  color: var(--alt-color);
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.Movie-Name:hover{
+  color: var(--hover-color);
+}
+
+.Player{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+::-webkit-scrollbar{
+
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+
+background-color: var(--alt-color);
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color); 
+  width: 0.2px;
+
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes showUp {
+  0%{
+    opacity: 0;
+    bottom: 200px;
+  }
+  100%{
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+
+@keyframes fullWidth {
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 360px;
+  }
+}
