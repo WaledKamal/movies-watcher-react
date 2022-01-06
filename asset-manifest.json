@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "8080/react/static/css/main.c9eca2d5.css",
-    "main.js": "8080/react/static/js/main.da1be29a.js",
-    "index.html": "8080/react/index.html",
-    "main.c9eca2d5.css.map": "8080/react/static/css/main.c9eca2d5.css.map",
-    "main.da1be29a.js.map": "8080/react/static/js/main.da1be29a.js.map"
+    "main.css": "/movies-watcher-react/static/css/main.c9eca2d5.css",
+    "main.js": "/movies-watcher-react/static/js/main.da1be29a.js",
+    "index.html": "/movies-watcher-react/index.html",
+    "main.c9eca2d5.css.map": "/movies-watcher-react/static/css/main.c9eca2d5.css.map",
+    "main.da1be29a.js.map": "/movies-watcher-react/static/js/main.da1be29a.js.map"
   },
   "entrypoints": [
     "static/css/main.c9eca2d5.css",
