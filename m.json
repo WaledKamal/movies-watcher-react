@@ -1,0 +1,52 @@
+
+[
+    {
+      "id": 0,
+      "MovName": "BreakingBad",
+      "VideoURl": "",
+      "PosterURL": "https://www.themoviedb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
+      "MovDec" : "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+    },
+    {
+      "id": 1,
+      "MovName": "Prison Break",
+      "VideoURl": "",
+      "PosterURL": "https://ae01.alicdn.com/kf/HTB1GM22Xbj1gK0jSZFuq6ArHpXav.jpg",
+      "MovDec":"Prison Break is an American serial drama television series created by Paul Scheuring for Fox. The series revolves around two brothers, Lincoln Burrows (Dominic Purcell) and Michael Scofield (Wentworth Miller); Burrows has been sentenced to death for a crime he did not commit, and Scofield devises an elaborate plan to help his brother escape prison and clear his name"
+    },
+    {
+      "id": 2,
+      "MovName": "Jhon Wick",
+      "VideoURl": "",
+      "PosterURL": "https://m.media-amazon.com/images/I/7193v6icsqL._AC_SY679_.jpg",
+      "MovDec" : "The story focuses on John Wick (Reeves) searching for the men who broke into his home, stole his vintage car and killed his puppy, which was a last gift to him from his recently deceased wife."
+    },
+    {
+      "id": 3,
+      "MovName": "Game of throns",
+      "VideoURl": "",
+      "PosterURL": "https://image.posterlounge.com/images/l/1901278.jpg",
+      "MovDec" : "Set on the fictional continents of Westeros and Essos, Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show. The first major arc concerns the Iron Throne of the Seven Kingdoms of Westeros through a web of political conflicts among the noble families either vying to claim the throne or fighting for independence from whoever sits on it. A second focuses on the last descendant of the realm's deposed ruling dynasty, who has been exiled to Essos and is plotting to return and reclaim the throne."
+    },
+    {
+      "id": 4,
+      "MovName": "Spider-Man: No Way Home",
+      "VideoURl": "",
+      "PosterURL": "https://cdn0-production-images-kly.akamaized.net/Yy0SVhQK_omfhAmyoM1Qz7Kq6Ew=/640x853/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3687377/original/038531300_1639456223-MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM_._V1_FMjpg_UY720_.jpg",
+      "MovDec" : "A third MCU Spider-Man film was planned during the production of Homecoming in 2017. Negotiations between Sony and Marvel Studios to alter their deal—in which they produce the Spider-Man films together—ended with Marvel Studios leaving the project in August 2019, but a negative fan reaction led to a new deal between the companies a month later." 
+    },
+    {
+      "id": 5,
+      "MovName": "Venom",
+      "VideoURl": "",
+      "PosterURL": "https://www.ubuy.com.kz/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFMUE9NZXI0akwuX0FDX1NMMTUwMF8uanBn.jpg",
+      "MovDec" : "After Venom's appearance in Spider-Man 3 (2007), Sony attempted to develop a spin-off film based on the character but it did not move forward due to issues with Sony's ongoing Spider-Man franchise. In March 2016,"
+    },
+    {
+      "id": 6,
+      "MovName": "interstellar",
+      "VideoURl": "",
+      "PosterURL": "https://play-lh.googleusercontent.com/oVJrPE3AI_X4bTVCKhbzY_2Bekogch9HEfWQ_vCyrS49enzXLZCUIuCTZp-YPT2tcUtjAnXZAXh3WetkHO8",
+      "MovDec" : "Brothers Christopher and Jonathan Nolan wrote the screenplay, which had its origins in a script Jonathan developed in 2007. Christopher produced Interstellar with his wife, Emma Thomas, through their production company Syncopy, and with Lynda Obst through Lynda Obst Productions"
+    }
+  ]

@@ -1,6 +1,5 @@
 {
   "name": "movies-watcher-react",
-  "homepage": "https://waledkamal.github.io/movies-watcher-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

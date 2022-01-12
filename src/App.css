@@ -11,12 +11,12 @@
 
 :root {
   --main-color: #000;
-  --alt-color : coral;
-  --hover-color:yellowgreen;
+  --alt-color: coral;
+  --hover-color: yellowgreen;
 }
 
-body{
-  background-color: var( --main-color);
+body {
+  background-color: var(--main-color);
 }
 
 header {
@@ -35,7 +35,7 @@ header .logo {
   font-weight: bold;
 }
 
-header .search-area input{
+header .search-area input {
   padding: 2px;
   width: 0;
   height: 40px;
@@ -50,20 +50,20 @@ header .search-area input{
   border-bottom-left-radius: 10px;
 }
 
-header .search-area input:focus{
+header .search-area input:focus {
   border: var(--alt-color) 2px solid;
 }
 
-header .search-area input::placeholder{
+header .search-area input::placeholder {
   margin-right: 10px;
 }
 
-.slide{
+.slide {
   padding: 25px;
   text-align: center;
 }
 
-.Movies{
+.Movies {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -75,7 +75,36 @@ header .search-area input::placeholder{
   transform: scale(0.9);
 }
 
-.Movies-box{
+.movie-info {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  margin: auto;
+  background-color: #b9bcc31e;
+  align-items: center;
+  align-content: center;
+  animation: fadeOut 1s forwards;
+  opacity: 0;
+}
+
+.moive-info-name {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.moive-info-img {
+  width: 120px;
+  padding: 10px;
+}
+
+.moive-dec{
+  color: wheat;
+}
+
+.Movies-box {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -88,13 +117,13 @@ header .search-area input::placeholder{
   bottom: 200px;
 }
 
-.Movies h3{
+.Movies h3 {
   font-size: 40px;
   color: wheat;
-  animation: fadeOut 3.5s ;
+  animation: fadeOut 3.5s;
 }
 
-.Movies h4{
+.Movies h4 {
   text-align: center;
   font-size: 31px;
   margin-top: 25px;
@@ -105,18 +134,18 @@ header .search-area input::placeholder{
   opacity: 0;
 }
 
-.Movies span{
+.Movies span {
   color: var(--alt-color);
 }
 
-.Movie{
+.Movie {
   margin: 20px;
   transition: 0.4s;
   background: #121212;
   padding: 10px;
 }
 
-.Movies .Movie a{
+.Movies .Movie a {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -126,75 +155,70 @@ header .search-area input::placeholder{
   margin: 5px;
 }
 
-.Movie:hover{
+.Movie:hover {
   transform: scale(1.2);
 }
 
-.Movies .Movie img{
+.Movies .Movie img {
   width: 190px;
   border: solid 2px var(--alt-color);
 }
 
-.Movie-Name{
+.Movie-Name {
   text-align: center;
   color: var(--alt-color);
   font-weight: bold;
   transition: 0.4s;
 }
 
-.Movie-Name:hover{
+.Movie-Name:hover {
   color: var(--hover-color);
 }
 
-.Player{
+.Player {
   width: 500px;
   height: 500px;
   margin: auto;
 }
 
-::-webkit-scrollbar{
-
+::-webkit-scrollbar {
   width: 20px;
 }
 
-::-webkit-scrollbar-thumb{
-
-background-color: var(--alt-color);
-  
+::-webkit-scrollbar-thumb {
+  background-color: var(--alt-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--hover-color); 
+  background: var(--hover-color);
   width: 0.2px;
-
 }
 
 @keyframes fadeOut {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
 @keyframes showUp {
-  0%{
+  0% {
     opacity: 0;
     bottom: 200px;
   }
-  100%{
+  100% {
     opacity: 1;
     bottom: 0;
   }
 }
 
-
 @keyframes fullWidth {
-  0%{
+  0% {
     width: 0px;
   }
-  100%{
+  100% {
     width: 360px;
   }
 }

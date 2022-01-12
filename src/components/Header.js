@@ -6,6 +6,7 @@ import { baseURL, fetchApi } from "./utils/fetchApi";
 export default function Header() {
   const filterContext = useContext(MoviesContext);
   const [filterdMovies, setfilterdMovies] = useState([]);
+  const [searchValue, setsearchValue] = useState("");
 
   useEffect(() => {
     fetchApi(baseURL).then((response) => {
@@ -14,6 +15,7 @@ export default function Header() {
   });
 
   function filterMoives(text) {
+    setsearchValue(text.target.value)
     let KeyWord = text.target.value;
     filterContext.setMoviesList(
       filterdMovies.filter((item) => item["MovName"].includes(KeyWord))
@@ -32,6 +34,7 @@ export default function Header() {
           onChange={(text) => filterMoives(text)}
           placeholder={"serach a movie ... 🔍 "}
           className="search-input"
+          value={searchValue}
         ></input>
       </div>
     </header>
